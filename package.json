@@ -1,0 +1,16 @@
+{
+  "name": "style_dictionary_test",
+  "version": "1.0.0",
+  "description": "test",
+  "scripts": {
+    "test": "echo \"Error: no test speccified\" && exit 1",
+    "hello": "echo hello",
+    "start": "node transform-token.js",
+    "custom": "node custom-format.js",
+    "build": "style-dictionary build",
+    "build2": "style-dictionary build --config ./transform-token-common.js"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.9.2"
+  }
+}
