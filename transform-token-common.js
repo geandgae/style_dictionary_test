@@ -2,7 +2,8 @@
 module.exports = {
   // source: ["tokens/**/*.json"],
   // source: ["tokens/**/design-tokens-effect.tokens.json"],
-  source: ["tokens/**/ge-color.tokens.json"],
+  // source: ["tokens/**/ge-color.tokens.json"],
+  source: ["tokens/figmaToken.json"],
   transform: {
     // Now we can use the transform 'myTransform' below
     myTransform: {
