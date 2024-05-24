@@ -87,6 +87,10 @@
           "type": "color"
         }
       }
+    },
+    "size10px": {
+      "value": "10px",
+      "type": "sizing"
     }
   },
   "$themes": [],
