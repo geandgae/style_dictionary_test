@@ -50,24 +50,8 @@
         }
       },
       "red": {
-        "100": {
-          "value": "#fff5f5",
-          "type": "color"
-        },
-        "200": {
-          "value": "#fed7d7",
-          "type": "color"
-        },
-        "300": {
-          "value": "#feb2b2",
-          "type": "color"
-        },
-        "400": {
-          "value": "#fc8181",
-          "type": "color"
-        },
-        "500": {
-          "value": "#f56565",
+        "900": {
+          "value": "#742a2a",
           "type": "color"
         }
       }
