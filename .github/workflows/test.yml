@@ -1,21 +1,13 @@
 name: test ge action
 
-on:
-  pull_request:
-    branches:
-      - main
-    types:
-      - labeled
+on: [push]
 
 jobs:
   generate_tokens:
     runs-on: ubuntu-latest
     steps:
-      - name: run hello
-        run: echo Hello, world!
+    - run: echo "hello"
     # - uses: actions/checkout@v3
-    # - name: Install Node Dependencies
-    #   run: npm install style-dictionary
     # - name: Build Style Dictionary
     #   run: npm run build
     # - name: Commit Generated Platform Deliverables
@@ -23,4 +15,4 @@ jobs:
     #   uses: stefanzweifel/git-auto-commit-action@v4
     #   with:
     #     commit_message: Update design tokens
-    #     branch: specify
+    #     branch: main
