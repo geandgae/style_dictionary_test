@@ -29,7 +29,9 @@ jobs:
       - name: Set up timestamp
         id: date
         # run: echo "TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')" >> env
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S')"
+        run: |
+          TZ='Asia/Seoul' 
+          echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S')"
   
       - name: Commit Generated Platform Deliverables
         uses: stefanzweifel/git-auto-commit-action@v4
