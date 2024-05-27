@@ -2,6 +2,7 @@ name: GitHub Actions Demo
 # run-name: ${{ github.actor }} is testing out GitHub Actions 🚀 # 이름설정 없으면 커밋명으로 올라감
 run-name: ${{ github.event.head_commit.author.name }} is testing out GitHub Actions 🚀
 
+# GITHUB_TOKEN에 대한 권한을 설정합니다.
 permissions:
   contents: write # commit 권한 설정
 
@@ -45,6 +46,7 @@ jobs:
 
       # if: github.actor == 'geandgae'
       # if: contains(fromJson('["user1", "user2"]'), github.actor)
+      # if: contains(github.event.head_commit.author.email, 'specific-email@example.com') # 특정 이메일을 조건으로 설정
       
       # - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       # - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
