@@ -12,6 +12,7 @@ on:
 jobs:
   update-tokens:
     runs-on: ubuntu-latest
+    if: github.event.head_commit.author.name == 'geandgae'
     steps:
       
       - name: checkout repository
@@ -24,8 +25,6 @@ jobs:
         run: npm run build2
   
       - name: Commit Generated Platform Deliverables
-        if: github.actor == 'geandgae'
-        
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update design tokens
@@ -43,7 +42,7 @@ jobs:
 
 
 
-
+      # if: github.actor == 'geandgae'
       # if: contains(fromJson('["user1", "user2"]'), github.actor)
       
       # - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
