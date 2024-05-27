@@ -1,0 +1,74 @@
+{
+  "global": {
+    "color": {
+      "black": {
+        "value": "#000",
+        "type": "color",
+        "description": "black"
+      },
+      "white": {
+        "value": "#fff",
+        "type": "color",
+        "description": "white"
+      },
+      "gray": {
+        "100": {
+          "value": "#f7fafc",
+          "type": "color"
+        },
+        "200": {
+          "value": "#edf2f7",
+          "type": "color"
+        },
+        "300": {
+          "value": "#e2e8f0",
+          "type": "color"
+        },
+        "400": {
+          "value": "#cbd5e0",
+          "type": "color"
+        },
+        "500": {
+          "value": "#a0aec0",
+          "type": "color"
+        },
+        "600": {
+          "value": "#718096",
+          "type": "color"
+        },
+        "700": {
+          "value": "#4a5568",
+          "type": "color"
+        },
+        "800": {
+          "value": "#2d3748",
+          "type": "color"
+        },
+        "910": {
+          "value": "#1a202c",
+          "type": "color"
+        },
+        "920": {
+          "value": "#1a202c",
+          "type": "color"
+        },
+        "930": {
+          "value": "#1a202c",
+          "type": "color"
+        }
+      },
+      "red": {
+        "900": {
+          "value": "#742a2a",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
