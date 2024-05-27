@@ -1,8 +1,16 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  Explore-GitHub-Actions:
+  update-tokens:
     runs-on: ubuntu-latest
     steps:
       # - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -17,7 +25,8 @@ jobs:
       #     ls ${{ github.workspace }}
       # - run: echo "🍏 This job's status is ${{ job.status }}."
 
-      - uses: actions/checkout@v4
+      - name: checkout repository
+        uses: actions/checkout@v4
   
       - name: Install Node Dependencies
         run: npm install style-dictionary
@@ -26,7 +35,6 @@ jobs:
         run: npm run build2
   
       - name: Commit Generated Platform Deliverables
-        id: "auto-commit-action"
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update design tokens
