@@ -1,8 +1,18 @@
 // node
 const StyleDictionary = require("style-dictionary");
 
+// 커스텀 포매터 정의
 StyleDictionary.registerFormat({
-  name: "customCss",
+  name: "custom/format",
+
+  // ver 1
+  // formatter: function(dictionary, config) {
+  //   return dictionary.allProperties.map(prop => {
+  //     return `--${prop.name}: ${prop.value};`;
+  //   }).join('\n');
+  // },
+
+  // ver2
   formatter: function ({ dictionary, platform, options, file }) {
     // console.log(dictionary);
     const variablesObject = dictionary.allProperties.reduce((acc, { value, type, path }) => {
@@ -33,36 +43,47 @@ StyleDictionary.registerFormat({
       }
       return acc;
     }, {});
-    
-    
     const cssString = Object.entries(variablesObject)
       .map(([key, value]) => `  --${key}: ${value};`)
       .join("\n");
     return `:root {\n${cssString}\n}`;
   },
+
 });
 
-const styleDictionaryExtended = StyleDictionary.extend({
+
+
+// Style Dictionary 설정
+const StyleDictionaryConfig = {
   // source: ["tokens/**/*.json"],
   source: ["tokens/**/design-tokens-effect.tokens.json"],
   platforms: {
-    scss: {
+    css: {
+      // transforms: ['attribute/cti', 'name/cti/kebab', 'size/rem'],
       transformGroup: "css",
       buildPath: "build/",
       files: [
         {
           destination: "variables.css",
-          format: "customCss",
+          format: "custom/format",
           // format: "scss/variables",
           // format: "css/variables",
         },
       ],
     },
   },
-});
-
-styleDictionaryExtended.buildAllPlatforms();
+};
 
 
 
-console.log("fin");
+// Style Dictionary 확장
+const StyleDictionaryExtended = StyleDictionary.extend(StyleDictionaryConfig);
+
+
+
+// 빌드 실행
+StyleDictionaryExtended.buildAllPlatforms();
+
+
+
+console.log("StyleDictionaryExtended fin");
