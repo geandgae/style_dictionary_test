@@ -7,7 +7,7 @@ permissions:
 on:
   push:
     branches:
-      - figma
+      - main
 
 jobs:
   update-tokens:
