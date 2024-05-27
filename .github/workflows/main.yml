@@ -24,6 +24,8 @@ jobs:
         run: npm run build2
   
       - name: Commit Generated Platform Deliverables
+        if: github.actor == 'geandgae'
+        
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update design tokens
@@ -42,7 +44,7 @@ jobs:
 
 
 
-
+      # if: contains(fromJson('["user1", "user2"]'), github.actor)
       # - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       # - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       # - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
