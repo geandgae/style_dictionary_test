@@ -17,8 +17,8 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
   
-      # - name: Install Node Dependencies
-      #   run: npm install style-dictionary
+      - name: Install Node Dependencies
+        run: npm install style-dictionary
   
       - name: Build Style Dictionary
         run: npm run build2
