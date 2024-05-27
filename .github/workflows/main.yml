@@ -11,6 +11,9 @@ on:
     branches:
       - main
 
+env:
+  TZ: Asia/Seoul
+
 jobs:
   update-tokens:
     runs-on: ubuntu-latest
@@ -29,9 +32,7 @@ jobs:
       - name: Set up timestamp
         id: date
         # run: echo "TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')" >> env
-        run: |
-          TZ='Asia/Seoul' 
-          echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S')"
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S')"
   
       - name: Commit Generated Platform Deliverables
         uses: stefanzweifel/git-auto-commit-action@v4
