@@ -2,8 +2,8 @@ name: test ge action
 
 on:
   pull_request:
-    branches: ["main"]
-    types: ["labeled"]
+    branches: 
+      - main
 
 jobs:
   generate_tokens:
