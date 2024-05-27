@@ -2,13 +2,12 @@ name: test ge action
 
 on:
   pull_request:
-    # branches: ["main"]
+    branches: ["main"]
     types: ["labeled"]
 
 jobs:
   generate_tokens:
     runs-on: ubuntu-latest
-    if: ${{ github.event.label.name == 'Design tokens' }}
     steps:
     - uses: actions/checkout@v3
 
