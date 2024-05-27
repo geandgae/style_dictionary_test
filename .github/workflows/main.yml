@@ -17,6 +17,7 @@ jobs:
       #     ls ${{ github.workspace }}
       # - run: echo "🍏 This job's status is ${{ job.status }}."
 
+      - uses: actions/checkout@v4
   
       - name: Install Node Dependencies
         run: npm install style-dictionary
