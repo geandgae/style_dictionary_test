@@ -138,11 +138,11 @@
     },
     "spacing": {
       "sm": {
-        "value": "10px",
+        "value": "20px",
         "type": "sizing"
       },
       "md": {
-        "value": "20px",
+        "value": "50px",
         "type": "sizing"
       },
       "lg": {
