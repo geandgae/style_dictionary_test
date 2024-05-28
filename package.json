@@ -10,7 +10,8 @@
     "start3": "node transform-token-gpt.js",
     "custom": "node custom-format.js",
     "build": "style-dictionary build",
-    "build2": "style-dictionary build --config ./transform-token-common-back.js"
+    "build2": "style-dictionary build --config ./transform-token-common-back.js",
+    "build3": "style-dictionary build --config ./transform-token-gpt-es-mod.js"
   },
   "dependencies": {
     "style-dictionary": "^3.9.2"

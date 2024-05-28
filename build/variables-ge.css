@@ -1,15 +1,18 @@
 :root {
-  --global-scale: 2;
-  --global-xs: 2;
-  --global-base-black: #000;
-  --global-base-white: #fff;
-  --global-gray-100: #f7fafc;
-  --global-gray-200: #edf2f7;
-  --global-red-100: #fff5f5;
-  --global-red-200: #fed7d7;
-  --global-yellow-100: #fffff0;
-  --global-yellow-200: #fefcbf;
-  --global-spacing-sm: 30px;
-  --global-spacing-md: 90px;
-  --global-spacing-lg: 90px;
+  /* dimension */
+  --gemode-dimension-scale: 2;
+  --gemode-dimension-xs: 2;
+  /* color */
+  --gemode-color-base-black: #000;
+  --gemode-color-base-white: #fff;
+  --gemode-color-gray-100: #f7fafc;
+  --gemode-color-gray-200: #edf2f7;
+  --gemode-color-red-100: #fff5f5;
+  --gemode-color-red-200: #fed7d7;
+  --gemode-color-yellow-100: #fffff0;
+  --gemode-color-yellow-200: #fefcbf;
+  /* sizing */
+  --gemode-spacing-sm: 30px;
+  --gemode-spacing-md: 90px;
+  --gemode-spacing-lg: 90px;
 }
