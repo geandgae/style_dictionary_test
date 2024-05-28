@@ -1,8 +1,6 @@
 :root {
-  --global-scale: //color 2;
-  --global-xs: //color 2;
-  --global-sm: //color 4;
-  --global-md: //color 5;
+  --global-scale: 2;
+  --global-xs: 2;
   --global-base-black: #000;
   --global-base-white: #fff;
   --global-gray-100: #f7fafc;
