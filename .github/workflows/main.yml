@@ -27,7 +27,7 @@ jobs:
         run: npm install style-dictionary
   
       - name: Build Style Dictionary
-        run: npm run start2
+        run: npm run start3
 
       - name: Set up timestamp
         id: date
