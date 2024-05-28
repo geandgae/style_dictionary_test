@@ -65,6 +65,134 @@
         "value": "90px",
         "type": "sizing"
       }
+    },
+    "borderRadius": {
+      "sm": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "16",
+        "type": "borderRadius"
+      }
+    },
+    "opacity": {
+      "low": {
+        "value": "10%",
+        "type": "opacity"
+      },
+      "md": {
+        "value": "50%",
+        "type": "opacity"
+      },
+      "high": {
+        "value": "90%",
+        "type": "opacity"
+      }
+    },
+    "fontFamilies": {
+      "heading": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "heading": {
+        "value": "110%",
+        "type": "lineHeights"
+      },
+      "body": {
+        "value": "140%",
+        "type": "lineHeights"
+      }
+    },
+    "letterSpacing": {
+      "default": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "increased": {
+        "value": "150%",
+        "type": "letterSpacing"
+      },
+      "decreased": {
+        "value": "-5%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "h1": {
+        "value": "32",
+        "type": "paragraphSpacing"
+      },
+      "h2": {
+        "value": "26",
+        "type": "paragraphSpacing"
+      }
+    },
+    "fontWeights": {
+      "headingRegular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "headingBold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "bodyRegular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "bodyBold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "fontSizes": {
+      "h1": {
+        "value": "10px",
+        "type": "fontSizes"
+      },
+      "h2": {
+        "value": "20px",
+        "type": "fontSizes"
+      },
+      "h3": {
+        "value": "30px",
+        "type": "fontSizes"
+      },
+      "h4": {
+        "value": "40px",
+        "type": "fontSizes"
+      },
+      "h5": {
+        "value": "50px",
+        "type": "fontSizes"
+      },
+      "h6": {
+        "value": "60px",
+        "type": "fontSizes"
+      },
+      "body": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "10px",
+        "type": "fontSizes"
+      },
+      "xs": {
+        "value": "5px",
+        "type": "fontSizes"
+      }
     }
   },
   "$themes": [],
