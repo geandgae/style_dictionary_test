@@ -15,4 +15,40 @@
   --gemode-spacing-sm: 30px;
   --gemode-spacing-md: 90px;
   --gemode-spacing-lg: 90px;
+  /* borderRadius */
+  --gemode-borderRadius-sm: 4;
+  --gemode-borderRadius-lg: 8;
+  --gemode-borderRadius-xl: 16;
+  /* opacity */
+  --gemode-opacity-low: 10%;
+  --gemode-opacity-md: 50%;
+  --gemode-opacity-high: 90%;
+  /* fontFamilies */
+  --gemode-fontFamilies-heading: Inter;
+  --gemode-fontFamilies-body: Roboto;
+  /* lineHeights */
+  --gemode-lineHeights-heading: 110%;
+  --gemode-lineHeights-body: 140%;
+  /* letterSpacing */
+  --gemode-letterSpacing-default: 0;
+  --gemode-letterSpacing-increased: 150%;
+  --gemode-letterSpacing-decreased: -5%;
+  /* paragraphSpacing */
+  --gemode-paragraphSpacing-h1: 32;
+  --gemode-paragraphSpacing-h2: 26;
+  /* fontWeights */
+  --gemode-fontWeights-headingRegular: Regular;
+  --gemode-fontWeights-headingBold: Bold;
+  --gemode-fontWeights-bodyRegular: Regular;
+  --gemode-fontWeights-bodyBold: Bold;
+  /* fontSizes */
+  --gemode-fontSizes-h1: 10px;
+  --gemode-fontSizes-h2: 20px;
+  --gemode-fontSizes-h3: 30px;
+  --gemode-fontSizes-h4: 40px;
+  --gemode-fontSizes-h5: 50px;
+  --gemode-fontSizes-h6: 60px;
+  --gemode-fontSizes-body: 16;
+  --gemode-fontSizes-sm: 10px;
+  --gemode-fontSizes-xs: 5px;
 }
