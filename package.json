@@ -6,9 +6,10 @@
     "test": "echo \"Error: no test speccified\" && exit 1",
     "hello": "echo hello",
     "start": "node transform-token.js",
+    "start2": "node transform-token-common.js",
     "custom": "node custom-format.js",
     "build": "style-dictionary build",
-    "build2": "style-dictionary build --config ./transform-token-common.js"
+    "build2": "style-dictionary build --config ./transform-token-common-back.js"
   },
   "dependencies": {
     "style-dictionary": "^3.9.2"

@@ -10,11 +10,11 @@
         "type": "dimension"
       },
       "sm": {
-        "value": "{dimension.xs} * {dimension.scale}",
+        "value": "4",
         "type": "dimension"
       },
       "md": {
-        "value": "{dimension.scale}* {dimension.sm}",
+        "value": "5",
         "type": "dimension"
       }
     },

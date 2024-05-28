@@ -1,40 +1,79 @@
-// common.js
-module.exports = {
-  // source: ["tokens/**/*.json"],
-  // source: ["tokens/**/design-tokens-effect.tokens.json"],
-  // source: ["tokens/**/ge-color.tokens.json"],
+// node
+const StyleDictionary = require("style-dictionary");
+
+// 커스텀 포매터 정의
+StyleDictionary.registerFormat({
+  name: "custom/format",
+
+  // ver2
+  formatter: function ({ dictionary, platform, options, file }) {
+    // console.log(dictionary);
+    const variablesObject = dictionary.allProperties.reduce((acc, { value, type, path }) => {
+      if (type === "dimension") {
+        const key = path
+          .map((name) => name.replace("dimension", "").trim())
+          .filter((name) => name.length !== 0)
+          .join("-");
+        acc[key] = value;
+      }
+      if (type === "color") {
+        const key = path
+          .map((name) => name.replace("color", "").trim())
+          .filter((name) => name.length !== 0)
+          .join("-");
+        acc[key] = value;
+      }
+      if (type === "custom-shadow") {
+        const key = path
+          .map((name) => name.replace("effect", "").trim())
+          .map((name) => name.replace("shadow", "").trim())
+          .filter((name) => name.length !== 0)
+          .join("-");
+        acc[key] = value;
+        // const test = Object.values(value).map(val => val);
+        // const test = Object.entries(value).forEach(([key, value]) => {
+        //   console.log(`Key: ${key}, Value: ${value}`);
+        //   // return `${key}: ${value}`
+        // });
+        // console.log(test);
+        // value.forEach(element => {
+        //   console.log(element);
+        // });
+      }
+      return acc;
+    }, {});
+    const cssString = Object.entries(variablesObject)
+      .map(([key, value]) => `  --${key}: ${value};`)
+      .join("\n");
+    return `:root {\n${cssString}\n}`;
+  },
+
+});
+
+
+// Style Dictionary 설정
+const StyleDictionaryConfig = {
   source: ["tokens/figmaToken.json"],
-  transform: {
-    // Now we can use the transform 'myTransform' below
-    myTransform: {
-      type: 'name',
-      transformer: (token) => token.path.join('_').toUpperCase()
-    }
-  },
-  // Same with formats, you can now write them directly to this config
-  // object. The name of the format is the key.
-  format: {
-    myFormat: ({dictionary, platform}) => {
-      // console.log(dictionary.allTokens.map(token => `${token.name}: ${token.value}`))
-      const tokens = dictionary.allTokens.map(token => `  --${token.name}: ${token.value};`).join('\n');
-      return `:root {\n${tokens}\n}`;
-    }
-  },
   platforms: {
-    scss: {
+    css: {
+      // transforms: ['attribute/cti', 'name/cti/kebab', 'size/rem'],
       transformGroup: "css",
       buildPath: "build/",
       files: [
         {
-          // destination: "variables-common.css",
           destination: "variables-ge.css",
-          format: "myFormat",
-          // format: "scss/variables",
-          // format: "css/variables",
+          format: "custom/format",
         },
       ],
     },
   },
 };
 
-console.log("fin");
+// Style Dictionary 확장
+const StyleDictionaryExtended = StyleDictionary.extend(StyleDictionaryConfig);
+
+// 빌드 실행
+StyleDictionaryExtended.buildAllPlatforms();
+
+
+console.log("StyleDictionaryExtended fin");
