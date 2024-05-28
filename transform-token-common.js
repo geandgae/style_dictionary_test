@@ -16,9 +16,9 @@ StyleDictionary.registerFormat({
           .join("-");
         acc[key] = value;
       }
-      if (type === "spacing") {
+      if (type === "sizing") {
         const key = path
-          .map((name) => name.replace("spacing", "").trim())
+          .map((name) => name.replace("sizing", "").trim())
           .filter((name) => name.length !== 0)
           .join("-");
         acc[key] = value;
