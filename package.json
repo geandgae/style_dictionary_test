@@ -7,6 +7,7 @@
     "hello": "echo hello",
     "start": "node transform-token.js",
     "start2": "node transform-token-common.js",
+    "start3": "node transform-token-gpt.js",
     "custom": "node custom-format.js",
     "build": "style-dictionary build",
     "build2": "style-dictionary build --config ./transform-token-common-back.js"
