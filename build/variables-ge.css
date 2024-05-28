@@ -30,4 +30,7 @@
   --global-yellow-700: #b7791f;
   --global-yellow-800: #975a16;
   --global-yellow-900: #744210;
+  --global-spacing-sm: 30px;
+  --global-spacing-md: 90px;
+  --global-spacing-lg: 90px;
 }
