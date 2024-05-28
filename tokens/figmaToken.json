@@ -8,14 +8,6 @@
       "xs": {
         "value": "2",
         "type": "dimension"
-      },
-      "sm": {
-        "value": "4",
-        "type": "dimension"
-      },
-      "md": {
-        "value": "5",
-        "type": "dimension"
       }
     },
     "color": {
@@ -142,6 +134,20 @@
           "value": "#744210",
           "type": "color"
         }
+      }
+    },
+    "spacing": {
+      "sm": {
+        "value": "10px",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "20px",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "100px",
+        "type": "sizing"
       }
     }
   },
