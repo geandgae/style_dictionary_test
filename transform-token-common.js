@@ -16,6 +16,13 @@ StyleDictionary.registerFormat({
           .join("-");
         acc[key] = value;
       }
+      if (type === "spacing") {
+        const key = path
+          .map((name) => name.replace("spacing", "").trim())
+          .filter((name) => name.length !== 0)
+          .join("-");
+        acc[key] = value;
+      }
       if (type === "color") {
         const key = path
           .map((name) => name.replace("color", "").trim())
