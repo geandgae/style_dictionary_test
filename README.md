@@ -1,4 +1,5 @@
 https://github.com/lukasoppermann/design-tokens/blob/main/examples/build.js
+https://github.com/amzn/style-dictionary/tree/main/examples/advanced/auto-rebuild-watcher/tokens/color
 
 # Basic Style Dictionary
 

@@ -10,6 +10,7 @@
     "start3": "node transform-token-gpt.js",
     "start4": "node transform-token-filter.js",
     "start5": "node transform-token-scss.js",
+    "start6": "node transform-cti.js",
     "custom": "node custom-format.js",
     "build": "style-dictionary build",
     "build2": "style-dictionary build --config ./transform-token-common-back.js",
