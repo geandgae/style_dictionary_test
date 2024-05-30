@@ -1,0 +1,15 @@
+@use 'variables-sd';
+
+@each $name, $color in variables.$colors {
+  .#{$name} {
+    color: $color;
+  }
+
+  .bg-#{$name} {
+    background-color: $color;
+  }
+
+  .border-#{$name} {
+    border-color: $color;
+  }
+}
