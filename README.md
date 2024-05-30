@@ -1,3 +1,5 @@
+https://github.com/lukasoppermann/design-tokens/blob/main/examples/build.js
+
 # Basic Style Dictionary
 
 This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
