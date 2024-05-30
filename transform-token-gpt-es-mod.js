@@ -1,5 +1,6 @@
 import StyleDictionary from "style-dictionary";
-
+// 참고
+// https://github.com/lukasoppermann/design-tokens/blob/main/examples/build.js
 // 이름 변환 함수
 function transformName(prop, removeFirstPathSegment) {
   if (removeFirstPathSegment) {
