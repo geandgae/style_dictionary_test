@@ -1,0 +1,29 @@
+{
+  "component": {
+    "button": {
+      "primary": {
+        "background-color": {
+          "value": "#007bff",
+          "category": "color",
+          "type": "background"
+        },
+        "text-color": {
+          "value": "#ffffff",
+          "category": "color",
+          "type": "font"
+        },
+        "border-radius": {
+          "value": "4px",
+          "category": "size",
+          "type": "border",
+          "item": "radius"
+        },
+        "padding": {
+          "value": "12px 24px",
+          "category": "size",
+          "type": "padding"
+        }
+      }
+    }
+  }
+}
