@@ -28,7 +28,7 @@ const StyleDictionaryExtended = StyleDictionary.extend({
         {
           filter: require('./libs/web/filterWeb'),
           format: 'custom/css',
-          destination: 'variables2.css'
+          destination: 'lib.css'
         }
       ]
     },

@@ -36,8 +36,8 @@ StyleDictionary.registerFormat({
   }
 });
 
-// Style Dictionary 설정
-const StyleDictionaryConfig = {
+// 모듈 실행
+module.exports = {
   source: ["tokens/figmaToken.json"],
   platforms: {
     css: {
@@ -52,13 +52,31 @@ const StyleDictionaryConfig = {
       ],
     },
   },
-};
+}
 
-// Style Dictionary 확장
-const StyleDictionaryExtended = StyleDictionary.extend(StyleDictionaryConfig);
-
-// 빌드 실행
-StyleDictionaryExtended.buildAllPlatforms();
+console.log("transform-scss!!");
 
 
-console.log("StyleDictionaryExtended fin");
+
+// // 다른방식 package run : "node transform-scss.js",
+// // Style Dictionary 설정
+// const StyleDictionaryConfig = {
+//   source: ["tokens/figmaToken.json"],
+//   platforms: {
+//     css: {
+//       // transforms: ['attribute/cti', 'name/cti/kebab', 'size/rem'],
+//       transformGroup: "scss",
+//       buildPath: "build/scss/",
+//       files: [
+//         {
+//           destination: "variables-sd.scss",
+//           format: "custom/scss-format",
+//         },
+//       ],
+//     },
+//   },
+// };
+// // Style Dictionary 확장
+// const StyleDictionaryExtended = StyleDictionary.extend(StyleDictionaryConfig);
+// // 빌드 실행
+// StyleDictionaryExtended.buildAllPlatforms();

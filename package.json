@@ -4,17 +4,13 @@
   "description": "test",
   "scripts": {
     "test": "echo \"Error: no test speccified\" && exit 1",
-    "hello": "echo hello",
-    "start": "node transform-token.js",
-    "start2": "node transform-token-common.js",
-    "start3": "node transform-token-gpt.js",
-    "start4": "node transform-token-filter.js",
-    "start5": "node transform-token-scss.js",
-    "start6": "node transform-cti.js",
-    "custom": "node custom-format.js",
-    "build": "style-dictionary build",
-    "build2": "style-dictionary build --config ./transform-token-common-back.js",
-    "build3": "style-dictionary build --config ./transform-token-gpt-es-mod.js"
+    "clean": "rm -rf build",
+    "build": "style-dictionary build --config ./config.json",
+    "build-test": "node transform-test.js",
+    "build-lib": "node transform-lib.js",
+    "build-css": "style-dictionary build --config ./transform-css.js",
+    "build-scss": "style-dictionary build --config ./transform-scss.js",
+    "build-cti": "style-dictionary build --config ./transform-cti.js"
   },
   "dependencies": {
     "@ctrl/tinycolor": "^3.4.0",

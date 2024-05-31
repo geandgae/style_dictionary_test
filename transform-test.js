@@ -16,7 +16,21 @@ StyleDictionary.registerFormat({
   formatter: function ({ dictionary, platform, options, file }) {
     // console.log(dictionary);
     const variablesObject = dictionary.allProperties.reduce((acc, { value, type, path }) => {
-      // type에 따라 어떻게 파싱할 껀지 처리 해주면 됨 ! (현재는 color에 대해서만 파싱)
+      // type에 따라 분리
+      if (type === "dimension") {
+        const key = path
+          .map((name) => name.replace("dimension", "").trim())
+          .filter((name) => name.length !== 0)
+          .join("-");
+        acc[key] = value;
+      }
+      if (type === "sizing") {
+        const key = path
+          .map((name) => name.replace("sizing", "").trim())
+          .filter((name) => name.length !== 0)
+          .join("-");
+        acc[key] = value;
+      }
       if (type === "color") {
         const key = path
           .map((name) => name.replace("color", "").trim())
@@ -48,15 +62,12 @@ StyleDictionary.registerFormat({
       .join("\n");
     return `:root {\n${cssString}\n}`;
   },
-
 });
-
 
 
 // Style Dictionary 설정
 const StyleDictionaryConfig = {
-  // source: ["tokens/**/*.json"],
-  source: ["tokens/**/design-tokens-effect.tokens.json"],
+  source: ["tokens/**/*.json"],
   platforms: {
     css: {
       // transforms: ['attribute/cti', 'name/cti/kebab', 'size/rem'],
@@ -64,26 +75,18 @@ const StyleDictionaryConfig = {
       buildPath: "build/",
       files: [
         {
-          destination: "variables.css",
+          destination: "test.css",
           format: "custom/format",
-          // format: "scss/variables",
-          // format: "css/variables",
         },
       ],
     },
   },
 };
 
-
-
 // Style Dictionary 확장
 const StyleDictionaryExtended = StyleDictionary.extend(StyleDictionaryConfig);
-
-
 
 // 빌드 실행
 StyleDictionaryExtended.buildAllPlatforms();
 
-
-
-console.log("StyleDictionaryExtended fin");
+console.log("transform-test!!");
