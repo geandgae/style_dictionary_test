@@ -36,7 +36,7 @@ StyleDictionary.registerFormat({
   }
 });
 
-// 모듈 실행
+// export
 module.exports = {
   source: ["tokens/figmaToken.json"],
   platforms: {
