@@ -7,18 +7,16 @@ const StyleDictionary = require('style-dictionary')
 
 // PATHS
 // const basePath = './examples/'
-const buildPath = './build/'
+// const buildPath = './build/'
 
 const StyleDictionaryExtended = StyleDictionary.extend({
-  // adding imported configs
   // ...deepMerge.all([androidConfig, iosConfig, webConfig]),
   ...deepMerge.all([webConfig]),
-  // source: [basePath + 'input/*.json'],
   source: ['tokens/figmaToken2.json'],
   platforms: {
     css: {
       transformGroup: 'custom/css',
-      buildPath: buildPath + '/css/',
+      buildPath: './build/css/',
       options: {
         fontFamilies: {
           'Akzidenz-Grotesk Pro': '"Akzidenz-Grotesk Pro", sans-serif'
