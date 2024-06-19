@@ -1,0 +1,28 @@
+$colors: (
+  color-base-black: #000,
+  color-base-white: #fff,
+  color-gray-100: #f7fafc,
+  color-gray-200: #edf2f7,
+  color-red-100: #fff5f5,
+  color-red-200: #fed7d7,
+  color-yellow-100: #fffff0,
+  color-yellow-200: #fefcbf,
+);
+
+body {
+    color: map-get($colors, color-base-white);
+}
+
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+  }
+
+  .bg-#{$name} {
+    background-color: $color;
+  }
+
+  .border-#{$name} {
+    border-color: $color;
+  }
+}
