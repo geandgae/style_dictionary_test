@@ -1,0 +1,73 @@
+$dimensions: (
+  dimension-scale: 2,
+  dimension-xs: 2,
+);
+
+$colors: (
+  color-base-black: #000,
+  color-base-white: #fff,
+  color-gray-100: #f7fafc,
+  color-gray-200: #edf2f7,
+  color-red-100: #fff5f5,
+  color-red-200: #fed7d7,
+  color-yellow-100: #fffff0,
+  color-yellow-200: #fefcbf,
+);
+
+$sizings: (
+  spacing-sm: 30px,
+  spacing-md: 90px,
+  spacing-lg: 90px,
+);
+
+$borderRadiuss: (
+  borderRadius-sm: 4,
+  borderRadius-lg: 8,
+  borderRadius-xl: 16,
+);
+
+$opacitys: (
+  opacity-low: 10%,
+  opacity-md: 50%,
+  opacity-high: 90%,
+);
+
+$fontFamiliess: (
+  fontFamilies-heading: Inter,
+  fontFamilies-body: Roboto,
+);
+
+$lineHeightss: (
+  lineHeights-heading: 110%,
+  lineHeights-body: 140%,
+);
+
+$letterSpacings: (
+  letterSpacing-default: 0,
+  letterSpacing-increased: 150%,
+  letterSpacing-decreased: -5%,
+);
+
+$paragraphSpacings: (
+  paragraphSpacing-h1: 32,
+  paragraphSpacing-h2: 26,
+);
+
+$fontWeightss: (
+  fontWeights-headingRegular: Regular,
+  fontWeights-headingBold: Bold,
+  fontWeights-bodyRegular: Regular,
+  fontWeights-bodyBold: Bold,
+);
+
+$fontSizess: (
+  fontSizes-h1: 10px,
+  fontSizes-h2: 20px,
+  fontSizes-h3: 30px,
+  fontSizes-h4: 40px,
+  fontSizes-h5: 50px,
+  fontSizes-h6: 60px,
+  fontSizes-body: 16,
+  fontSizes-sm: 10px,
+  fontSizes-xs: 5px,
+);
