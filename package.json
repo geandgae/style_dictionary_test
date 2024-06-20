@@ -10,6 +10,7 @@
     "build-lib": "node transform-lib.js",
     "build-css": "style-dictionary build --config ./transform-css.js",
     "build-scss": "style-dictionary build --config ./transform-scss.js",
+    "build-scss2": "style-dictionary build --config ./transform-scss2.js",
     "build-cti": "style-dictionary build --config ./transform-cti.js",
     "build-64": "style-dictionary build --config ./transform-base64.json"
   },
