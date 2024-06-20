@@ -1,3 +1,26 @@
+# Style Dictionary build
+
+피그마 토큰스튜디오 빌드
+```bash
+npm run build-scss
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://github.com/lukasoppermann/design-tokens/blob/main/examples/build.js
 https://github.com/amzn/style-dictionary/tree/main/examples/advanced/auto-rebuild-watcher/tokens/color
 
