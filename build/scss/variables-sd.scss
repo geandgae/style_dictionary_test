@@ -1,73 +1,79 @@
 $dimensions: (
-  dimension-scale: 2,
-  dimension-xs: 2,
+  global-dimension-scale: 2,
+  global-dimension-xs: 2,
 );
 
 $colors: (
-  color-base-black: #000,
-  color-base-white: #fff,
-  color-gray-100: #f7fafc,
-  color-gray-200: #edf2f7,
-  color-red-100: #fff5f5,
-  color-red-200: #fed7d7,
-  color-yellow-100: #fffff0,
-  color-yellow-200: #fefcbf,
+  global-color-base-black: #000,
+  global-color-base-white: #fff,
+  global-color-gray-100: #f7fafc,
+  global-color-gray-200: #edf2f7,
+  global-color-red-100: #fff5f5,
+  global-color-red-200: #fed7d7,
+  global-color-yellow-100: #fffff0,
+  global-color-yellow-200: #fefcbf,
 );
 
 $sizings: (
-  spacing-sm: 30px,
-  spacing-md: 90px,
-  spacing-lg: 90px,
+  global-spacing-sm: 30px,
+  global-spacing-md: 90px,
+  global-spacing-lg: 90px,
 );
 
 $borderRadiuss: (
-  borderRadius-sm: 4,
-  borderRadius-lg: 8,
-  borderRadius-xl: 16,
+  global-borderRadius-sm: 4,
+  global-borderRadius-lg: 8,
+  global-borderRadius-xl: 16,
 );
 
 $opacitys: (
-  opacity-low: 10%,
-  opacity-md: 50%,
-  opacity-high: 90%,
+  global-opacity-low: 10%,
+  global-opacity-md: 50%,
+  global-opacity-high: 90%,
 );
 
 $fontFamiliess: (
-  fontFamilies-heading: Inter,
-  fontFamilies-body: Roboto,
+  global-fontFamilies-heading: Inter,
+  global-fontFamilies-body: Roboto,
 );
 
 $lineHeightss: (
-  lineHeights-heading: 110%,
-  lineHeights-body: 140%,
+  global-lineHeights-heading: 110%,
+  global-lineHeights-body: 140%,
 );
 
 $letterSpacings: (
-  letterSpacing-default: 0,
-  letterSpacing-increased: 150%,
-  letterSpacing-decreased: -5%,
+  global-letterSpacing-default: 0,
+  global-letterSpacing-increased: 150%,
+  global-letterSpacing-decreased: -5%,
 );
 
 $paragraphSpacings: (
-  paragraphSpacing-h1: 32,
-  paragraphSpacing-h2: 26,
+  global-paragraphSpacing-h1: 32,
+  global-paragraphSpacing-h2: 26,
 );
 
 $fontWeightss: (
-  fontWeights-headingRegular: Regular,
-  fontWeights-headingBold: Bold,
-  fontWeights-bodyRegular: Regular,
-  fontWeights-bodyBold: Bold,
+  global-fontWeights-headingRegular: Regular,
+  global-fontWeights-headingBold: Bold,
+  global-fontWeights-bodyRegular: Regular,
+  global-fontWeights-bodyBold: Bold,
 );
 
 $fontSizess: (
-  fontSizes-h1: 10px,
-  fontSizes-h2: 20px,
-  fontSizes-h3: 30px,
-  fontSizes-h4: 40px,
-  fontSizes-h5: 50px,
-  fontSizes-h6: 60px,
-  fontSizes-body: 16,
-  fontSizes-sm: 10px,
-  fontSizes-xs: 5px,
+  global-fontSizes-h1: 10px,
+  global-fontSizes-h2: 20px,
+  global-fontSizes-h3: 30px,
+  global-fontSizes-h4: 40px,
+  global-fontSizes-h5: 50px,
+  global-fontSizes-h6: 60px,
+  global-fontSizes-body: 20px,
+  global-fontSizes-sm: 10px,
+  global-fontSizes-xs: 5px,
+  font-size: 40px,
+  font-size: 32px,
+);
+
+$others: (
+  $metadata-tokenSetOrder-0: global,
 );
