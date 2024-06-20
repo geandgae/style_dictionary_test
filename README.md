@@ -21,7 +21,7 @@ npm run build-scss
 
 
 
-https://github.com/lukasoppermann/design-tokens/blob/main/examples/build.js
+<!-- https://github.com/lukasoppermann/design-tokens/blob/main/examples/build.js
 https://github.com/amzn/style-dictionary/tree/main/examples/advanced/auto-rebuild-watcher/tokens/color
 
 # Basic Style Dictionary
@@ -302,4 +302,4 @@ For example, if the key of the token (the last part of the object path) is "back
 * `config.js`:
   * `propertiesToCTI`: A plain object where we map the CSS property name to the proper category and type.
   * `CTITransform`: A transform object that defines a transformer method, which will override the default `attribute/cti` transform. This is similar to creating a child class with some custom logic and then calling `super`. In the transformer function it first looks at the top-level namespace, the first item in the object path, and if it is 'component' we run our custom logic using the `propertiesToCTI` map. If it is not 'component', use the built-in `attribute/cti`.
-* `tokens/component/button.json`: Take a look at how it defines the component tokens and uses the last part of the object path as the CSS property. Notice how we can define token values in here that are not references, but they still get transformed properly: font-size uses 'rem' and background-color uses hex in the output.
+* `tokens/component/button.json`: Take a look at how it defines the component tokens and uses the last part of the object path as the CSS property. Notice how we can define token values in here that are not references, but they still get transformed properly: font-size uses 'rem' and background-color uses hex in the output. -->
