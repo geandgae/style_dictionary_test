@@ -1,0 +1,1787 @@
+{
+  "component" : {
+    "font": {
+      "title": {
+        "xlarge_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 28,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1ab1f1e58dcf7765573f3dbc9db78417680493d8,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "xlarge": {
+          "description": "regular",
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 28,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b8cd5d16153c29887de572a8ccd8a7aeaec9b2ca,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "xlarge_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 28,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:42d9cdbefdff9e712fac58f5ac3b6eb2cd5ab4fd,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "large_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bdc4dc4ca993604fd5ff25265ac02f6b277d3736,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "large": {
+          "description": "regular",
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a38ac09c6d1e1559f096c10b26c61b595fd2c989,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "large_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4d99c0482cb900455a6e90251ccf4f2e8d6b9ed8,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "medium_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:98a3a4453b7dbe3fe526d1f71d4fd2b83e7bcfb2,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "medium": {
+          "description": "regular",
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:7a63a72fe92b861d60b9e15557ee70dc5d5cc9fa,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "medium_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:39a46932e014bd0319465bf01804fc62996a1311,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "body": {
+        "xlarge_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 28,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:8e794da625301e6fd68c21aaed87e44aee47943d,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "xlarge": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 28,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c38b237cd4720cac2c60542282f3d4af0cd0bd90,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "xlarge_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 28,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f00566739a83ec64df6c904753fec3598504d8f7,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "large_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6e3ff01c433301f9e2346e8d81a1f0989698beb5,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f738938741cac746090b5b3115e676d56d2c8976,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "large_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:23af7134c37af09b7f406f3c3d9600f6428a9108,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "medium_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:faee958c6d04069c6b6e44c4a4bcef331313a733,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0b400b57cf6aa004167e7afdf59d997895bb0dff,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "medium_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:7d129d6935e96a55c7938f7a11adc9e698245b83,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "small_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 13,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b7e542f878871571e70f06333b2e1abc42324066,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 13,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:74bd3b5925a16cf3139f555fa8c27b709febde9a,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "small_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 13,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:fc4c3790e03e5600945435892366868e58e1236f,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "xsmall_bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:cf5855699e17c29f7d38bf603b2d16fe36f4b1bc,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "xsmall": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3e515b0e73d3d671d05a18a17ba37c91451cb290,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "xsmall_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0134acfd011b163d8ddf0c3d111a07a5710bc7c4,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "tiny": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 10,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 12,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6554ed76f455a095b298f4de1cce3226fc639702,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "tiny_light": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 10,
+            "textDecoration": "none",
+            "fontFamily": "Sandoll GothicNeo1",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 12,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4bb379e731b4daa8a158f74ae4fde6aa19a0ec3f,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "semantic": {
+        "button": {
+          "large": {
+            "description": "Body-large",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 16,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:5d03fd7a8fa949075c5364fb4c59de3d321b4bc3,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium": {
+            "description": "body-medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:b5aa495a14305397b9e6d1651c0cc6adfe820d00,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "small": {
+            "description": "body-small-light",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:b7d52a2c8a809354cc703635dfe21ee8d3aae945,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "xsmall": {
+            "description": "body-xsmall-light",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:b6e5ce98264cfc11cb5f3e09fbc17cb76062f3b0,",
+                "exportKey": "font"
+              }
+            }
+          }
+        },
+        "input": {
+          "large-placeholder-on": {
+            "description": "body-medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 16,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:512c9acbbc5e4c8c36e58474fa53f25d9b32cbf0,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "large-placeholder-off": {
+            "description": "body-large-light",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 16,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:b7ed280c25855da857e1ba00ab3b20b2039c9ee8,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium-placeholder-on": {
+            "description": "body-medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:8170fd738511227de14e78c8dae67f727a10142f,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium-placeholder-off": {
+            "description": "body-small",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:662736b64f8cff476740520deb9c304c7c8a84ea,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "label": {
+            "description": "body-medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:4c3a297db7c1b75071ce21cdfb6732d208871abd,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "hint": {
+            "description": "budy-small-light",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:28b0f9f6a0698d435240d3481dcc631b3bf7d2ab,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "caption": {
+            "description": "body-xsmall-light",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:9e66efe0a3c65bb78f27871f1dff7807423d6730,",
+                "exportKey": "font"
+              }
+            }
+          }
+        },
+        "table": {
+          "label": {
+            "description": "body-xsmall-light",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:1e83b0e6f7c8b8fae9a652c2c5a24135278cf84d,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "body-bold": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:3bc3c476e17cef81da7f63936c9aafb8c1401fe6,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "body": {
+            "description": "body-medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:e02b34340907c936655bdeab239c628e91afb1d8,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "sub": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:c92b15714be3968472b1b70a1d31281c470e2684,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "caption": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 10,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 12,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:302dccaf918cd39597ab1897c1d526e8062e8fc4,",
+                "exportKey": "font"
+              }
+            }
+          }
+        },
+        "navi": {
+          "primary": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:b1eab0ec18a131b0b25333abb2678c9a43a07a50,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "secondary-on": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:d93c87e02b1efdb196c029140a6b9cb89e0deb49,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "secondary-off": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:37cb8e73e27aa1895d88ea8738bd91742ca0656b,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "bottom-on": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 10,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 14,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:54674d22bd1d105f2ce736723e635ab25bf6a5a6,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "bottom-off": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 10,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 14,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:8dcdfb05f2ac99dd1d602d1f0aa83b8f76009887,",
+                "exportKey": "font"
+              }
+            }
+          }
+        },
+        "controler": {
+          "large-select": {
+            "description": "body-large",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 16,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:67af082317c75405efbd262bc4cd307eb40739b3,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "large-unselect": {
+            "description": "body-large",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 16,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:37359090daafd82a7153feb4f7dc2d1505c2bdaa,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium-select": {
+            "description": "body-medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:f86122c4f6899109c8c986ad9cb40dfea71dfca7,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium-unselect": {
+            "description": "body-medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:bc5b139c97b2d4ed803f39140f17de4117872334,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "small-select": {
+            "description": "body-small",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:11923e316e4907073017af2286eeed62d6efbd46,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "small-unselect": {
+            "description": "body-small",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:7e376510ab0f21ff4ea251467bd04ac59e3b675f,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "xsmall-select": {
+            "description": "body-xsmall",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:5c6b745a1f736652977104466e26e87ba52d0dfa,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "xsmall-unselect": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:a0f6eb83ed098e87c5446a27f8c12a624e9c4340,",
+                "exportKey": "font"
+              }
+            }
+          }
+        },
+        "badge": {
+          "large": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "uppercase"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:54b28618de5ff94bd86595584e1ca6b18cdaefdf,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 10,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 12,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "uppercase"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:be24040943a0684505754bfd8cec0a00d41db14a,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "small": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 8,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 10,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "uppercase"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:a1dcb6380f3ed9720ae32e17bbe288013d8947c2,",
+                "exportKey": "font"
+              }
+            }
+          }
+        },
+        "list": {
+          "label-medium": {
+            "description": "medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:9d3af7373dd013794e641f90bdd67e41fe7fe830,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "label-small": {
+            "description": "small",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:d0a097107a7f00b3e05fc5c01491d5586e9ee655,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "xlarge": {
+            "description": "large",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 18,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 28,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:8f0d276f2872d1e10a0fd4cff115aa8c46b71838,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "large-bold": {
+            "description": "medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 16,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:ae0ccde21c152ef7663f8517b2949927b79cf067,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "large": {
+            "description": "medium",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 16,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:bd443431c71a76ebb13aa556cf85b7ea09df3efe,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium-bold": {
+            "description": "small-bold",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:2df2a10cffe4da16d047350782ad61fe981d6f2e,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium": {
+            "description": "small",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:b382dab2fbbd8cc0d8be4b5830ba43b50b2d355b,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "medium-light": {
+            "description": "small",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 14,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:23183b780da515784755ee5c86a05a79a1776304,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "small-bold": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:e2818a3349e04615d63835b3376db2a15b5dfca6,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "small": {
+            "description": "xsmall",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:6a12c1b59ec21f176857a51ca3143210afb239b0,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "small-light": {
+            "description": "xsmall",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 13,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 18,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:52bdb8563960b15c131cb219555193c5caffa888,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "xsmall-light": {
+            "description": "caption",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 12,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 16,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:17178774fef037126b1f77c2bb53a8f8ad6913cb,",
+                "exportKey": "font"
+              }
+            }
+          }
+        },
+        "number": {
+          "10": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 10,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 14,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:654c6436bd8b1bb411a054a22c0fbc2be585788a,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "20": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 20,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 28,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:e16ab2a3b4d404c57c9864174fae89d946e6a01a,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "24": {
+            "description": "regular",
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 24,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 32,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:4b9b600d6f3b12c1283396fd5165f9911b8e9f0c,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "30": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 30,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 38,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:69bdb25d9b5673358d15baa6f5e993ec9007e742,",
+                "exportKey": "font"
+              }
+            }
+          },
+          "36": {
+            "type": "custom-fontStyle",
+            "value": {
+              "fontSize": 36,
+              "textDecoration": "none",
+              "fontFamily": "Sandoll GothicNeo1",
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "letterSpacing": 0,
+              "lineHeight": 44,
+              "paragraphIndent": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none"
+            },
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:34180e89ce43e6b43da443dce9f0d433046624d0,",
+                "exportKey": "font"
+              }
+            }
+          }
+        }
+      }
+    },
+    "effect": {
+      "small": {
+        "description": "small compo",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 1,
+          "color": "#00000040",
+          "offsetX": 0,
+          "offsetY": 1,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:894dabd7604c91a662d4f5474aaaf6df60401549,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "xsmall": {
+        "description": null,
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 0,
+          "color": "#f2f3f5ff",
+          "offsetX": 1,
+          "offsetY": 1,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c201a56eb3e6ae64bc1c66f97e3c4166798c736b,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "medium": {
+        "description": "component",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 3,
+          "color": "#00000014",
+          "offsetX": 1,
+          "offsetY": 1,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f8aacce98ee5d799cc92e350a386b2cc45f1c459,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "large": {
+        "description": null,
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 6,
+          "color": "#00000014",
+          "offsetX": 0,
+          "offsetY": 2,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:56570741155da71c831016f20e2792708a296ca3,",
+            "exportKey": "effect"
+          }
+        }
+      }
+    }
+  }
+}

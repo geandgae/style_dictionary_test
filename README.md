@@ -9,6 +9,11 @@ npm run build-scss
 ```bash
 npm run build-scss-design
 ```
+
+피그마 local style scss
+```bash
+npm run build-scss-local
+```
    
 css
 ```bash
@@ -24,7 +29,12 @@ component(css)
 ```bash
 npm run build-cti
 ```
-   
+
+component(scss)
+```bash
+npm run build-cti-2
+```
+
 build 폴더 삭제
 ```bash
 npm run clean
