@@ -11,7 +11,6 @@
     "build-css": "style-dictionary build --config ./transform-css.js",
     "build-scss": "style-dictionary build --config ./transform-scss.js",
     "build-scss-design": "style-dictionary build --config ./transform-scss-design.js",
-    "build-scss-local": "style-dictionary build --config ./transform-scss-local.js",
     "build-cti": "style-dictionary build --config ./transform-cti.js",
     "build-cti-2": "style-dictionary build --config ./transform-cti-2.js",
     "build-64": "style-dictionary build --config ./transform-base64.json"

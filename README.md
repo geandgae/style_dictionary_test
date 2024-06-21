@@ -9,11 +9,6 @@ npm run build-scss
 ```bash
 npm run build-scss-design
 ```
-
-피그마 local style scss
-```bash
-npm run build-scss-local
-```
    
 css
 ```bash
@@ -25,12 +20,12 @@ svg -> base64
 npm run build-64
 ```
    
-component(css)
+component(css) local style
 ```bash
 npm run build-cti
 ```
 
-component(scss)
+component(scss) local style
 ```bash
 npm run build-cti-2
 ```
