@@ -132,6 +132,7 @@ StyleDictionary.registerFilter({
 // name/cti/kebab: 이름을 컴포넌트 유형 인덱스 및 케밥 케이스로 변환합니다.
 // size/rem: 사이즈 값을 rem 단위로 변환합니다.
 // color/css: 색상 값을 CSS 변수 형식으로 변환합니다.
+// 변환은 유형, 이름, 일치자 및 변환기의 4개 부분으로 구성됩니다. 변환은 일치자가 true를 반환하는 모든 디자인 토큰에서 실행됩니다. 참고: 일치자 기능을 제공하지 않으면 모든 토큰과 일치합니다.
 
 // registerParser  JSON, XML, CSV 등 다양한 형식의 파일 파싱
 StyleDictionary.registerParser({
