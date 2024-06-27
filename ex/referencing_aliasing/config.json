@@ -1,0 +1,13 @@
+{
+  "source": ["./ex/referencing_aliasing/tokens/**/*.json"],
+  "platforms": {
+    "example": {
+      "transformGroup": "web",
+      "buildPath": "./ex/referencing_aliasing/build/json/",
+      "files": [{
+        "destination": "variables.json",
+        "format": "json/flat"
+      }]
+    }
+  }
+}

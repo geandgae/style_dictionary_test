@@ -1,0 +1,22 @@
+{
+  "button-color-primary": "#00ff00",
+  "button-color-secondary": "#0000ff",
+  "button-color-danger": "#ff0000",
+  "button-text-size": "16px",
+  "color-base-white": "#ffffff",
+  "color-base-gray-light": "#cccccc",
+  "color-base-gray-medium": "#9299a2",
+  "color-base-gray-dark": "#111111",
+  "color-base-red": "#ff0000",
+  "color-base-green": "#00ff00",
+  "color-base-blue": "#0000ff",
+  "color-primary": "#00ff00",
+  "color-secondary": "#0000ff",
+  "color-font-base": "#111111",
+  "color-font-faded": "#9299a2",
+  "color-font-error": "#ff0000",
+  "size-font-small": "12px",
+  "size-font-medium": "16px",
+  "size-font-large": "18px",
+  "size-font-base": "16px"
+}

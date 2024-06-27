@@ -1,9 +1,22 @@
-$dimensions: (
-  global-dimension-scale: 2,
-  global-dimension-xs: 2,
-);
 
-$colors: (
+@charset "utf-8";
+
+
+//prefix
+$prefix: krds- !default;
+
+//transition
+$transition-base: .4s ease-in-out !default;
+$transition-fade: opacity .4s linear !default;
+$transition-collapse: max-height .4s ease !default;
+$transition-collapse-width: width .4s ease !default;
+
+//box shadow
+$box-shadow-base: 2px 2px 2px 0px rgba(0, 0, 0, 0.15) !default;
+
+
+//color
+$color: (
   global-color-base-black: #000,
   global-color-base-white: #fff,
   global-color-gray-100: #f7fafc,
@@ -12,68 +25,4 @@ $colors: (
   global-color-red-200: #fed7d7,
   global-color-yellow-100: #fffff0,
   global-color-yellow-200: #fefcbf,
-);
-
-$sizings: (
-  global-spacing-sm: 30px,
-  global-spacing-md: 90px,
-  global-spacing-lg: 90px,
-);
-
-$borderRadiuss: (
-  global-borderRadius-sm: 4,
-  global-borderRadius-lg: 8,
-  global-borderRadius-xl: 16,
-);
-
-$opacitys: (
-  global-opacity-low: 10%,
-  global-opacity-md: 50%,
-  global-opacity-high: 90%,
-);
-
-$fontFamiliess: (
-  global-fontFamilies-heading: Inter,
-  global-fontFamilies-body: Roboto,
-);
-
-$lineHeightss: (
-  global-lineHeights-heading: 110%,
-  global-lineHeights-body: 140%,
-);
-
-$letterSpacings: (
-  global-letterSpacing-default: 0,
-  global-letterSpacing-increased: 150%,
-  global-letterSpacing-decreased: -5%,
-);
-
-$paragraphSpacings: (
-  global-paragraphSpacing-h1: 32,
-  global-paragraphSpacing-h2: 26,
-);
-
-$fontWeightss: (
-  global-fontWeights-headingRegular: Regular,
-  global-fontWeights-headingBold: Bold,
-  global-fontWeights-bodyRegular: Regular,
-  global-fontWeights-bodyBold: Bold,
-);
-
-$fontSizess: (
-  global-fontSizes-h1: 10px,
-  global-fontSizes-h2: 20px,
-  global-fontSizes-h3: 30px,
-  global-fontSizes-h4: 40px,
-  global-fontSizes-h5: 50px,
-  global-fontSizes-h6: 60px,
-  global-fontSizes-body: 20px,
-  global-fontSizes-sm: 10px,
-  global-fontSizes-xs: 5px,
-  font-size: 40px,
-  font-size: 32px,
-);
-
-$others: (
-  $metadata-tokenSetOrder-0: global,
-);
+)!default;

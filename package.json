@@ -13,11 +13,17 @@
     "build-scss-design": "style-dictionary build --config ./transform-scss-design.js",
     "build-cti": "style-dictionary build --config ./transform-cti.js",
     "build-cti-2": "style-dictionary build --config ./transform-cti-2.js",
-    "build-64": "style-dictionary build --config ./transform-base64.json"
+    "build-64": "style-dictionary build --config ./transform-base64.json",
+    "ex-build-rf": "style-dictionary build --config ./ex/referencing_aliasing/config.json",
+    "ex-build-nmc": "style-dictionary build --config ./ex/node_modules_config/config.js",
+    "ex-build-cp": "style-dictionary build --config ./ex/custom_parser/sd.config.js"
   },
   "dependencies": {
     "@ctrl/tinycolor": "^3.4.0",
     "deepmerge": "^4.2.2",
     "style-dictionary": "^3.9.2"
+  },
+  "devDependencies": {
+    "tinycolor2": "^1.6.0"
   }
 }
