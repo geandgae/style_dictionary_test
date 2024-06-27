@@ -69,6 +69,67 @@ $box-shadow-base: 2px 2px 2px 0px rgba(0, 0, 0, 0.15) !default;
 
 `;
 
+// 전이적변환
+// StyleDictionary.registerTransform({
+//   type: `value`,
+//   transitive: true,
+//   name: `myTransitiveTransform`,
+//   matcher: (token) => {},
+//   transformer: (token) => {
+//     // token.value will be resolved and transformed at this point
+//   }
+// })
+// Matches: all
+// Returns:
+// {
+//   "category": "color",
+//   "type": "background",
+//   "item": "button",
+//   "subitem": "primary",
+//   "state": "active"
+// }
+
+// 반환 적용 예
+// StyleDictionary.registerTransform({
+//   name: 'custom/color-background',
+//   type: 'value',
+//   matcher: function(token) {
+//     return token.attributes.category === "color";
+//   },
+//   transformer: function(token) {
+//     return {
+//       "category": "color",
+//       "type": "background",
+//       "item": "button",
+//       "subitem": "primary",
+//       "state": "active",
+//       "value": token.value // 예시에서는 토큰의 값(value)을 그대로 유지하도록 설정
+//     };
+//   }
+// });
+
+// // 예시 데이터
+// const tokens = {
+//   "button": {
+//     "primary": {
+//       "background": { "value": "#007bff" },
+//       "textColor": { "value": "#ffffff" },
+//       "fontSize": { "value": "16px" }
+//     },
+//     "secondary": {
+//       "background": { "value": "#6c757d" },
+//       "textColor": { "value": "#ffffff" },
+//       "fontSize": { "value": "14px" }
+//     }
+//   }
+// };
+
+// // 변환 적용 예시
+// const transformedTokens = StyleDictionary.transformTokens(tokens);
+
+// console.log(transformedTokens);
+
+
 // 커스텀 포매터 정의
 StyleDictionary.registerFormat({
   name: "custom/scss-format",
