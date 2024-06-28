@@ -14,8 +14,10 @@
       "color": {
         "base": {
           "black": {
-            "value": "#000",
-            "type": "color"
+            "active": {
+              "value": "#000",
+              "type": "color"
+            }
           },
           "white": {
             "value": "#fff",
