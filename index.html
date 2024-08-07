@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Classes</title>
+    <link href="./build/css/variables-sd.css" type="text/css" media="all" rel="stylesheet" />
+    <style>
+      #color-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .color-box {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="color-container"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // 클래스 이름 목록
+        const classes = [
+          "bg-primary-5",
+          "bg-primary-10",
+          "bg-primary-20",
+          "bg-primary-30",
+          "bg-primary-40",
+          "bg-primary-50",
+          "bg-primary-60",
+          "bg-primary-70",
+          "bg-primary-80",
+          "bg-primary-90",
+          "bg-secondary-5",
+          "bg-secondary-10",
+          "bg-secondary-20",
+          "bg-secondary-30",
+          "bg-secondary-40",
+          "bg-secondary-50",
+          "bg-secondary-60",
+          "bg-secondary-70",
+          "bg-secondary-80",
+          "bg-secondary-90",
+          "bg-gray-0",
+          "bg-gray-5",
+          "bg-gray-10",
+          "bg-gray-20",
+          "bg-gray-30",
+          "bg-gray-40",
+          "bg-gray-50",
+          "bg-gray-60",
+          "bg-gray-70",
+          "bg-gray-80",
+          "bg-gray-90",
+          "bg-gray-100",
+          "bg-gray-100-100",
+          "bg-gray-100-75",
+          "bg-gray-100-50",
+          "bg-gray-100-25",
+          "bg-gray-100-10",
+          "bg-danger-5",
+          "bg-danger-10",
+          "bg-danger-20",
+          "bg-danger-30",
+          "bg-danger-40",
+          "bg-danger-50",
+          "bg-danger-60",
+          "bg-danger-70",
+          "bg-danger-80",
+          "bg-danger-90",
+          "bg-information-5",
+          "bg-information-10",
+          "bg-information-20",
+          "bg-information-30",
+          "bg-information-40",
+          "bg-information-50",
+          "bg-information-60",
+          "bg-information-70",
+          "bg-information-80",
+          "bg-information-90",
+          "bg-warning-5",
+          "bg-warning-10",
+          "bg-warning-20",
+          "bg-warning-30",
+          "bg-warning-40",
+          "bg-warning-50",
+          "bg-warning-60",
+          "bg-warning-70",
+          "bg-warning-80",
+          "bg-warning-90",
+          "bg-success-5",
+          "bg-success-10",
+          "bg-success-20",
+          "bg-success-30",
+          "bg-success-40",
+          "bg-success-50",
+          "bg-success-60",
+          "bg-success-70",
+          "bg-success-80",
+          "bg-success-90",
+          "bg-point-5",
+          "bg-point-10",
+          "bg-point-20",
+          "bg-point-30",
+          "bg-point-40",
+          "bg-point-50",
+          "bg-point-60",
+          "bg-point-70",
+          "bg-point-80",
+          "bg-point-90",
+          "bg-background-gray-lighter",
+          "bg-background-primary-on",
+          "bg-background-secondary-on",
+          "bg-background-gray-light",
+          "bg-background-success",
+          "bg-background-information",
+          "bg-background-danger",
+          "bg-background-warning",
+          "bg-background-white",
+          "bg-background-gray-disabled",
+          "bg-background-primary-lighter",
+          "bg-background-secondary-lighter",
+          "bg-background-primary-light",
+          "bg-background-secondary-light",
+          "bg-background-secondary-dark",
+          "bg-background-danger-lighter",
+          "bg-background-warning-lighter",
+          "bg-background-success-lighter",
+          "bg-background-information-lighter",
+          "bg-background-point-lighter",
+          "bg-background-point-light",
+          "bg-background-point-on",
+        ];
+
+        const container = document.getElementById("color-container");
+
+        classes.forEach((className) => {
+          const div = document.createElement("div");
+          div.className = `color-box ${className}`;
+          div.textContent = className; // 클래스 이름을 텍스트로 표시
+          container.appendChild(div);
+        });
+      });
+    </script>
+  </body>
+</html>

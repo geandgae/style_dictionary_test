@@ -18,7 +18,8 @@
     "ex-build-nmc": "style-dictionary build --config ./ex/node_modules_config/config.js",
     "ex-build-cp": "style-dictionary build --config ./ex/custom_parser/sd.config.js",
     "ts": "node ./transform-json.js",
-    "build-push": "npm run ts && npm run build-scss"
+    "build-push": "npm run ts && npm run build-scss",
+    "start": "gulp"
   },
   "dependencies": {
     "@ctrl/tinycolor": "^3.4.0",
@@ -26,6 +27,15 @@
     "style-dictionary": "^3.9.2"
   },
   "devDependencies": {
-    "tinycolor2": "^1.6.0"
+    "tinycolor2": "^1.6.0",
+    "browser-sync": "^3.0.2",
+    "del": "^7.1.0",
+    "fs-extra": "^11.2.0",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-terser": "^2.1.0"
   }
 }
