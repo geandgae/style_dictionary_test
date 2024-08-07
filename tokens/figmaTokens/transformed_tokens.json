@@ -857,40 +857,36 @@
           "description": "active/selected"
         },
         "secondary-on": {
-          "value": "{primitive.Color.secondary.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "gray-light": {
-          "value": "{primitive.Color.gray.10}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "success": {
-          "value": "{primitive.Color.success.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "information": {
-          "value": "{primitive.Color.information.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "danger": {
-          "value": "{primitive.Color.danger.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning": {
-          "value": "{primitive.Color.warning.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "white": {
           "value": "{primitive.Color.gray.0}",
