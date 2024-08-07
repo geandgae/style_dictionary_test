@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // JSON 파일 경로
-const inputFilePath = path.join(__dirname, './tokens/figmaToken.json');
+const inputFilePath = path.join(__dirname, './tokens/figmaToken/figmaToken.json');
 const outputFilePath = path.join(__dirname, './tokens/figmaTokens/transformed_tokens.json');
 
 // JSON 파일 읽기
