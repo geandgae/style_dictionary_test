@@ -873,10 +873,9 @@
           "parent": "semantic/Mode 1"
         },
         "information": {
-          "value": "{Color.information.50}",
+          "value": "{Color.background.gray-light}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "danger": {
           "value": "{Color.danger.50}",
