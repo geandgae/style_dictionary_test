@@ -848,7 +848,7 @@
           "value": "{Color.gray.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
-          "description": ""
+          "description": "1"
         },
         "primary-on": {
           "value": "{Color.primary.50}",
