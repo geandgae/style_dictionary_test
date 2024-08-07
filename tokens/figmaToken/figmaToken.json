@@ -848,7 +848,7 @@
           "value": "{Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
-          "description": "12345"
+          "description": "123456"
         },
         "primary-on": {
           "value": "{Color.primary.50}",
