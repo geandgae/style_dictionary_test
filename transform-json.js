@@ -3,7 +3,8 @@ const path = require('path');
 
 // JSON 파일 경로
 const inputFilePath = path.join(__dirname, './tokens/figmaToken/figmaToken.json');
-const outputFilePath = path.join(__dirname, './tokens/figmaTokens/transformed_tokens.json');
+const outputDir = path.join(__dirname, './tokens/figmaTokens');
+const outputFilePath = path.join(outputDir, 'transformed_tokens.json');
 
 // JSON 파일 읽기
 const jsonData = JSON.parse(fs.readFileSync(inputFilePath, 'utf8'));
@@ -36,6 +37,11 @@ function transformJsonData(data) {
 
 // 변환 실행
 transformJsonData(jsonData);
+
+// 디렉토리가 없는 경우 생성
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
 
 // 변환된 JSON 데이터 저장
 fs.writeFileSync(outputFilePath, JSON.stringify(jsonData, null, 2), 'utf8');
