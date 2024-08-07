@@ -857,37 +857,36 @@
           "description": "active/selected"
         },
         "secondary-on": {
-          "value": "{Color.background.danger}",
+          "value": "{Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "gray-light": {
-          "value": "{Color.background.warning}",
+          "value": "{Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1"
         },
         "success": {
-          "value": "{Color.gray.100-100}",
+          "value": "{Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1"
         },
         "information": {
-          "value": "{Color.background.gray-light}",
+          "value": "{Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1"
         },
         "danger": {
-          "value": "{Color.danger.50}",
+          "value": "{Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning": {
-          "value": "{Color.warning.50}",
+          "value": "{Color.primary.50}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "white": {
           "value": "{Color.gray.0}",
