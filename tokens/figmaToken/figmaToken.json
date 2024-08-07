@@ -845,10 +845,10 @@
     "Color": {
       "background": {
         "gray-lighter": {
-          "value": "{Color.gray.5}",
+          "value": "{Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
-          "description": "1234"
+          "description": "12345"
         },
         "primary-on": {
           "value": "{Color.primary.50}",
