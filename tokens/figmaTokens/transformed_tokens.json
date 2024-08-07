@@ -198,31 +198,31 @@
           "parent": "primitive/Value",
           "description": ""
         },
-        "100-100%": {
+        "100-100": {
           "value": "#000000",
           "type": "color",
           "parent": "primitive/Value",
           "description": "text-title"
         },
-        "100-75%": {
+        "100-75": {
           "value": "#000000bf",
           "type": "color",
           "parent": "primitive/Value",
           "description": "dimmed"
         },
-        "100-50%": {
+        "100-50": {
           "value": "#00000080",
           "type": "color",
           "parent": "primitive/Value",
           "description": "bg,border"
         },
-        "100-25%": {
+        "100-25": {
           "value": "#00000040",
           "type": "color",
           "parent": "primitive/Value",
           "description": "bg,border"
         },
-        "100-10%": {
+        "100-10": {
           "value": "#0000001a",
           "type": "color",
           "parent": "primitive/Value",
