@@ -857,22 +857,20 @@
           "description": "active/selected"
         },
         "secondary-on": {
-          "value": "{Color.secondary.50}",
+          "value": "{Color.background.danger}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "gray-light": {
-          "value": "{Color.gray.10}",
+          "value": "{Color.background.warning}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "success": {
-          "value": "{Color.success.50}",
+          "value": "{Color.gray.100-100}",
           "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
+          "parent": "semantic/Mode 1"
         },
         "information": {
           "value": "{Color.information.50}",
