@@ -83,7 +83,7 @@ StyleDictionary.registerFilter({
 
 // export
 module.exports = {
-  source: ["tokens/figmaToken.json"],
+  source: ["./tokens/figmaTokens/transformed_tokens.json"],
   platforms: {
     scss: {
       // transforms: ['attribute/cti', 'name/cti/kebab', 'size/rem'],
@@ -93,7 +93,7 @@ module.exports = {
         {
           destination: "variables-sd.scss",
           format: "custom/scss-format",
-          filter: "isColor",
+          // filter: "isColor",
         },
       ],
     },
