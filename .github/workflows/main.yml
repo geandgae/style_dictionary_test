@@ -25,12 +25,9 @@ jobs:
   
       - name: Install Node Dependencies
         run: npm install style-dictionary
-
-      - name: Build ts json
-        run: npm run ts
   
       - name: Build Style Dictionary
-        run: npm run build-scss
+        run: npm run build-push
 
       - name: Set up timestamp
         id: date
