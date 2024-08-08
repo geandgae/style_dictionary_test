@@ -237,10 +237,16 @@ StyleDictionary.registerFormat({
       const type = prop.type;
       // const type = prop.path[0];
       // const type = prop.description;
+      const name = transformName(prop);
+
+      // type이 null인 경우 제외 (type === null)
+      if (!type) {
+        return acc;
+      }
+
       if (!acc[type]) {
         acc[type] = [];
       }
-      const name = transformName(prop);
       // const name = transformName(prop, type);
       // acc[type].push(`  ${type}-${name}: ${prop.value},`);
       acc[type].push(`  ${name}: ${prop.value},`);
