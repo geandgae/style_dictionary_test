@@ -1,0 +1,16 @@
+name: Update Tokens
+
+on:
+  repository_dispatch:
+    types:
+      - update-tokens
+
+jobs:
+  update-tokens-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create/Update tokens file
+        run: |
+          echo "${{ github.event.client_payload.tokens }}"
+
+      # 필요에 따라 추가 작업을 정의할 수 있습니다.
