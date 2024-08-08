@@ -19,6 +19,12 @@ jobs:
       - name: test
         run: echo "${{ github.repository }}"
 
+      - name: email
+        run: git config --global user.email "g_e@daum.com"
+
+      - name: name
+        run: git config --global user.name "ge_design_token"
+
       - name: add
         run: git add tokens.json
 
