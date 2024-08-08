@@ -15,7 +15,10 @@ jobs:
 
       - name: Create/Update tokens file
         run: echo "${{ github.event.client_payload.tokens }}" > tokens.json
-
+      
+      - name: Create/Update tokens file
+        run: echo "${{ github.event.client_payload.filename }}"
+        
       - name: test
         run: echo "${{ github.repository }}"
 
