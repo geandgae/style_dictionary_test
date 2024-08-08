@@ -19,10 +19,13 @@ jobs:
       - name: test
         run: echo "${{ github.repository }}"
 
-      - name: Commit and push changes
-        run:
-          git add tokens.json
-          git commit -m "${{ github.event.client_payload.commitMessage }}"
-          git push https://github.com/${{ github.repository }}.git HEAD:main
+      - name: add
+        run: git add tokens.json
+
+      - name: commit
+        run: git commit -m "${{ github.event.client_payload.commitMessage }}"
+      
+      - name: push
+        run: git push https://github.com/${{ github.repository }}.git HEAD:main
 
       
