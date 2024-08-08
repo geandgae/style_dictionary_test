@@ -11,7 +11,7 @@ jobs:
     steps:
 
       - name: checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Create/Update tokens file
         run: echo "${{ github.event.client_payload.tokens }}" > tokens.json
@@ -31,5 +31,3 @@ jobs:
           git add tokens.json
           git commit -m "${{ github.event.client_payload.commitMessage }}"
           git push https://$GH_PAT@github.com/${{ github.repository }}.git HEAD:main
-
-      
