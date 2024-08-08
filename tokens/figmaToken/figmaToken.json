@@ -1168,7 +1168,7 @@
           "parent": "semantic/Mode 1"
         },
         "primary-on": {
-          "value": "{Color.primary.50}",
+          "value": "{Color.background.danger}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
