@@ -824,320 +824,100 @@
     },
     "display": {
       "large": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.0}",
-          "fontSize": "{fontSize.8}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "medium": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.0}",
-          "fontSize": "{fontSize.7}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "small": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.1}",
-          "fontSize": "{fontSize.6}",
-          "letterSpacing": "{letterSpacing.1}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       }
     },
     "heading": {
       "h1": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.1}",
-          "fontSize": "{fontSize.6}",
-          "letterSpacing": "{letterSpacing.1}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "h2": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.2}",
-          "fontSize": "{fontSize.5}",
-          "letterSpacing": "{letterSpacing.1}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "h3": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.3}",
-          "fontSize": "{fontSize.4}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "h4": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.4}",
-          "fontSize": "{fontSize.3}",
-          "letterSpacing": "{letterSpacing.1}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "h5": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.5}",
-          "fontSize": "{fontSize.2}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "h6": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.6}",
-          "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "h7": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.7}",
-          "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       }
     },
     "body": {
       "large": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.5}",
-          "fontSize": "{fontSize.2}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "medium": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.8}",
-          "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "small": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.7}",
-          "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "large-bold": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.5}",
-          "fontSize": "{fontSize.2}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "medium-large": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.6}",
-          "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "small-bold": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-1}",
-          "lineHeight": "{lineHeights.7}",
-          "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       }
     },
     "label": {
       "large": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.5}",
-          "fontSize": "{fontSize.2}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "medium": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.6}",
-          "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "small": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.7}",
-          "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       }
     },
     "link": {
       "large": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.5}",
-          "fontSize": "{fontSize.2}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "medium": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.6}",
-          "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       },
       "small": {
-        "value": {
-          "fontFamily": "{fontFamilies.pretendard-gov}",
-          "fontWeight": "{fontWeights.pretendard-gov-0}",
-          "lineHeight": "{lineHeights.7}",
-          "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.2}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        "value": null,
+        "type": null
       }
     },
     "textCase": {
@@ -1163,265 +943,237 @@
     "Color": {
       "background": {
         "gray-lighter": {
-          "value": "{Color.gray.5}",
+          "value": "{primitive.Color.gray.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "primary-on": {
-          "value": "{Color.primary.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "secondary-on": {
-          "value": "{Color.secondary.50}",
+          "value": "{primitive.Color.secondary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "gray-light": {
-          "value": "{Color.gray.10}",
+          "value": "{primitive.Color.gray.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "success": {
-          "value": "{Color.success.50}",
+          "value": "{primitive.Color.success.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "information": {
-          "value": "{Color.information.50}",
+          "value": "{primitive.Color.information.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "danger": {
-          "value": "{Color.danger.50}",
+          "value": "{primitive.Color.danger.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning": {
-          "value": "{Color.warning.50}",
+          "value": "{primitive.Color.warning.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "white": {
-          "value": "{Color.gray.0}",
+          "value": "{primitive.Color.gray.0}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-disabled": {
-          "value": "{Color.gray.30}",
+          "value": "{primitive.Color.gray.30}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "disabled"
         },
         "primary-lighter": {
-          "value": "{Color.primary.5}",
+          "value": "{primitive.Color.primary.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "secondary-lighter": {
-          "value": "{Color.secondary.5}",
+          "value": "{primitive.Color.secondary.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "primary-light": {
-          "value": "{Color.primary.10}",
+          "value": "{primitive.Color.primary.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "secondary-light": {
-          "value": "{Color.secondary.10}",
+          "value": "{primitive.Color.secondary.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "secondary-dark": {
-          "value": "{Color.secondary.20}",
+          "value": "{primitive.Color.secondary.20}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "danger-lighter": {
-          "value": "{Color.danger.5}",
+          "value": "{primitive.Color.danger.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning-lighter": {
-          "value": "{Color.warning.5}",
+          "value": "{primitive.Color.warning.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "success-lighter": {
-          "value": "{Color.success.5}",
+          "value": "{primitive.Color.success.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "information-lighter": {
-          "value": "{Color.information.5}",
+          "value": "{primitive.Color.information.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "point-lighter": {
-          "value": "{Color.point.5}",
+          "value": "{primitive.Color.point.5}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "point-light": {
-          "value": "{Color.point.10}",
+          "value": "{primitive.Color.point.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "point-on": {
-          "value": "{Color.point.50}",
+          "value": "{primitive.Color.point.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         }
       },
-      "primary": {
-        "5": {
-          "value": "{Color.background.point-on}",
-          "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
-        },
-        "10": {
-          "value": "{Color.border.gray-lighter}",
-          "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
-        }
-      },
-      "test": {
-        "point-on": {
-          "value": "{Color.primary.5}",
-          "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
-        },
-        "gray-lighter": {
-          "value": "{Color.primary.10}",
-          "type": "color",
-          "parent": "semantic/Mode 1",
-          "description": ""
-        }
-      },
       "border": {
         "gray-lighter": {
-          "value": "{Color.gray.20}",
+          "value": "{primitive.Color.gray.20}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-light": {
-          "value": "{Color.gray.30}",
+          "value": "{primitive.Color.gray.30}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray": {
-          "value": "{Color.gray.40}",
+          "value": "{primitive.Color.gray.40}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "disabled"
         },
         "primary": {
-          "value": "{Color.primary.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "secondary-light": {
-          "value": "{Color.secondary.20}",
+          "value": "{primitive.Color.secondary.20}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "secondary": {
-          "value": "{Color.secondary.50}",
+          "value": "{primitive.Color.secondary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "danger-light": {
-          "value": "{Color.danger.10}",
+          "value": "{primitive.Color.danger.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "danger": {
-          "value": "{Color.danger.50}",
+          "value": "{primitive.Color.danger.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning-light": {
-          "value": "{Color.warning.10}",
+          "value": "{primitive.Color.warning.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning": {
-          "value": "{Color.warning.50}",
+          "value": "{primitive.Color.warning.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "success-light": {
-          "value": "{Color.success.10}",
+          "value": "{primitive.Color.success.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "success": {
-          "value": "{Color.success.50}",
+          "value": "{primitive.Color.success.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "information-light": {
-          "value": "{Color.information.10}",
+          "value": "{primitive.Color.information.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "information": {
-          "value": "{Color.information.50}",
+          "value": "{primitive.Color.information.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-dark": {
-          "value": "{Color.gray.60}",
+          "value": "{primitive.Color.gray.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active"
         },
         "primary-active": {
-          "value": "{Color.primary.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "gray-disabled": {
-          "value": "{Color.gray.40}",
+          "value": "{primitive.Color.gray.40}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "disabled"
@@ -1429,49 +1181,49 @@
       },
       "divider": {
         "gray-lighter": {
-          "value": "{Color.gray.20}",
+          "value": "{primitive.Color.gray.20}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-light": {
-          "value": "{Color.gray.30}",
+          "value": "{primitive.Color.gray.30}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray": {
-          "value": "{Color.gray.40}",
+          "value": "{primitive.Color.gray.40}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "disabled"
         },
         "gray-dark": {
-          "value": "{Color.gray.50}",
+          "value": "{primitive.Color.gray.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active"
         },
         "primary": {
-          "value": "{Color.primary.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "secondary-light": {
-          "value": "{Color.secondary.10}",
+          "value": "{primitive.Color.secondary.10}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "secondary": {
-          "value": "{Color.secondary.50}",
+          "value": "{primitive.Color.secondary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "error": {
-          "value": "{Color.danger.50}",
+          "value": "{primitive.Color.danger.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
@@ -1479,73 +1231,73 @@
       },
       "text": {
         "gray-title": {
-          "value": "{Color.gray.90}",
+          "value": "{primitive.Color.gray.90}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-detail": {
-          "value": "{Color.gray.70}",
+          "value": "{primitive.Color.gray.70}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-disabled": {
-          "value": "{Color.gray.50}",
+          "value": "{primitive.Color.gray.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "disabled"
         },
         "gray-disabled-background": {
-          "value": "{Color.gray.60}",
+          "value": "{primitive.Color.gray.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active"
         },
         "primary": {
-          "value": "{Color.primary.60}",
+          "value": "{primitive.Color.primary.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "secondary": {
-          "value": "{Color.secondary.50}",
+          "value": "{primitive.Color.secondary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "danger": {
-          "value": "{Color.danger.60}",
+          "value": "{primitive.Color.danger.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning": {
-          "value": "{Color.warning.60}",
+          "value": "{primitive.Color.warning.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "success": {
-          "value": "{Color.success.60}",
+          "value": "{primitive.Color.success.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "information": {
-          "value": "{Color.information.60}",
+          "value": "{primitive.Color.information.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-body": {
-          "value": "{Color.gray.90}",
+          "value": "{primitive.Color.gray.90}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "point": {
-          "value": "{Color.point.60}",
+          "value": "{primitive.Color.point.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
@@ -1553,67 +1305,67 @@
       },
       "icon": {
         "gray-line": {
-          "value": "{Color.gray.80}",
+          "value": "{primitive.Color.gray.80}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-fill": {
-          "value": "{Color.gray.20}",
+          "value": "{primitive.Color.gray.20}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "white": {
-          "value": "{Color.gray.0}",
+          "value": "{primitive.Color.gray.0}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "primary": {
-          "value": "{Color.primary.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "secondary": {
-          "value": "{Color.secondary.50}",
+          "value": "{primitive.Color.secondary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
         },
         "point": {
-          "value": "{Color.point.50}",
+          "value": "{primitive.Color.point.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "danger": {
-          "value": "{Color.danger.50}",
+          "value": "{primitive.Color.danger.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "warning": {
-          "value": "{Color.warning.50}",
+          "value": "{primitive.Color.warning.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "success": {
-          "value": "{Color.success.50}",
+          "value": "{primitive.Color.success.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "information": {
-          "value": "{Color.information.50}",
+          "value": "{primitive.Color.information.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "gray-line-disabled": {
-          "value": "{Color.gray.60}",
+          "value": "{primitive.Color.gray.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
@@ -1621,19 +1373,19 @@
       },
       "link": {
         "default": {
-          "value": "{Color.primary.50}",
+          "value": "{primitive.Color.primary.50}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "hover": {
-          "value": "{Color.primary.60}",
+          "value": "{primitive.Color.primary.60}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "pressed": {
-          "value": "{Color.primary.70}",
+          "value": "{primitive.Color.primary.70}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": ""
@@ -1648,85 +1400,85 @@
     },
     "Radius": {
       "xsmall-1": {
-        "value": "{Spacing.2}",
+        "value": "{primitive.Spacing.2}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-8"
       },
       "small-1": {
-        "value": "{Spacing.3}",
+        "value": "{primitive.Spacing.3}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-20"
       },
       "medium-1": {
-        "value": "{Spacing.4}",
+        "value": "{primitive.Spacing.4}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-40"
       },
       "medium-2": {
-        "value": "{Spacing.4}",
+        "value": "{primitive.Spacing.4}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-48"
       },
       "large-1": {
-        "value": "{Spacing.6}",
+        "value": "{primitive.Spacing.6}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-72"
       },
       "xlarge-1": {
-        "value": "{Spacing.7}",
+        "value": "{primitive.Spacing.7}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-96"
       },
       "xsmall-2": {
-        "value": "{Spacing.2}",
+        "value": "{primitive.Spacing.2}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-12"
       },
       "small-2": {
-        "value": "{Spacing.3}",
+        "value": "{primitive.Spacing.3}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-24"
       },
       "xsmall-3": {
-        "value": "{Spacing.2}",
+        "value": "{primitive.Spacing.2}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-16"
       },
       "medium-3": {
-        "value": "{Spacing.5}",
+        "value": "{primitive.Spacing.5}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-56"
       },
       "medium-4": {
-        "value": "{Spacing.5}",
+        "value": "{primitive.Spacing.5}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-64"
       },
       "small-3": {
-        "value": "{Spacing.3}",
+        "value": "{primitive.Spacing.3}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-32"
       },
       "large-2": {
-        "value": "{Spacing.6}",
+        "value": "{primitive.Spacing.6}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-72"
       },
       "xlarge-2": {
-        "value": "{Spacing.7}",
+        "value": "{primitive.Spacing.7}",
         "type": "dimension",
         "parent": "semantic/Mode 1",
         "description": "height-120"
@@ -1735,61 +1487,61 @@
     "Spacing": {
       "Size-height": {
         "8": {
-          "value": "{Spacing.5}",
+          "value": "{primitive.Spacing.5}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "16": {
-          "value": "{Spacing.8}",
+          "value": "{primitive.Spacing.8}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "20": {
-          "value": "{Spacing.9}",
+          "value": "{primitive.Spacing.9}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "24": {
-          "value": "{Spacing.10}",
+          "value": "{primitive.Spacing.10}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "32": {
-          "value": "{Spacing.12}",
+          "value": "{primitive.Spacing.12}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "40": {
-          "value": "{Spacing.14}",
+          "value": "{primitive.Spacing.14}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "48": {
-          "value": "{Spacing.16}",
+          "value": "{primitive.Spacing.16}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "56": {
-          "value": "{Spacing.17}",
+          "value": "{primitive.Spacing.17}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "64": {
-          "value": "{Spacing.18}",
+          "value": "{primitive.Spacing.18}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
         },
         "80": {
-          "value": "{Spacing.20}",
+          "value": "{primitive.Spacing.20}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": ""
@@ -1797,61 +1549,61 @@
       },
       "Gap": {
         "4": {
-          "value": "{Spacing.3}",
+          "value": "{primitive.Spacing.3}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-8"
         },
         "8": {
-          "value": "{Spacing.5}",
+          "value": "{primitive.Spacing.5}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-16"
         },
         "12": {
-          "value": "{Spacing.7}",
+          "value": "{primitive.Spacing.7}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-40"
         },
         "16": {
-          "value": "{Spacing.8}",
+          "value": "{primitive.Spacing.8}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-48,56,64"
         },
         "20": {
-          "value": "{Spacing.9}",
+          "value": "{primitive.Spacing.9}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-72,80"
         },
         "24": {
-          "value": "{Spacing.10}",
+          "value": "{primitive.Spacing.10}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"
         },
         "32": {
-          "value": "{Spacing.12}",
+          "value": "{primitive.Spacing.12}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"
         },
         "40": {
-          "value": "{Spacing.14}",
+          "value": "{primitive.Spacing.14}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"
         },
         "64": {
-          "value": "{Spacing.18}",
+          "value": "{primitive.Spacing.18}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"
         },
         "80": {
-          "value": "{Spacing.20}",
+          "value": "{primitive.Spacing.20}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"
@@ -1859,55 +1611,55 @@
       },
       "Padding": {
         "4": {
-          "value": "{Spacing.3}",
+          "value": "{primitive.Spacing.3}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-8"
         },
         "8": {
-          "value": "{Spacing.5}",
+          "value": "{primitive.Spacing.5}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-16"
         },
         "10": {
-          "value": "{Spacing.6}",
+          "value": "{primitive.Spacing.6}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-16"
         },
         "12": {
-          "value": "{Spacing.7}",
+          "value": "{primitive.Spacing.7}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-40"
         },
         "16": {
-          "value": "{Spacing.8}",
+          "value": "{primitive.Spacing.8}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-48,56,64"
         },
         "20": {
-          "value": "{Spacing.9}",
+          "value": "{primitive.Spacing.9}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-72,80"
         },
         "24": {
-          "value": "{Spacing.10}",
+          "value": "{primitive.Spacing.10}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"
         },
         "32": {
-          "value": "{Spacing.12}",
+          "value": "{primitive.Spacing.12}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"
         },
         "40": {
-          "value": "{Spacing.14}",
+          "value": "{primitive.Spacing.14}",
           "type": "dimension",
           "parent": "semantic/Mode 1",
           "description": "height-96,120"

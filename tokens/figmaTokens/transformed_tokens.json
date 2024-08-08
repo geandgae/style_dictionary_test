@@ -1075,6 +1075,34 @@
           "description": "active/selected"
         }
       },
+      "primary": {
+        "5": {
+          "value": "{semantic.Color.background.point-on}",
+          "type": "color",
+          "parent": "semantic/Mode 1",
+          "description": ""
+        },
+        "10": {
+          "value": "{semantic.Color.border.gray-lighter}",
+          "type": "color",
+          "parent": "semantic/Mode 1",
+          "description": ""
+        }
+      },
+      "test": {
+        "point-on": {
+          "value": "{primitive.Color.primary.5}",
+          "type": "color",
+          "parent": "semantic/Mode 1",
+          "description": ""
+        },
+        "gray-lighter": {
+          "value": "{primitive.Color.primary.10}",
+          "type": "color",
+          "parent": "semantic/Mode 1",
+          "description": ""
+        }
+      },
       "border": {
         "gray-lighter": {
           "value": "{primitive.Color.gray.20}",
