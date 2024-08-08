@@ -204,7 +204,7 @@
           "parent": "primitive/Value",
           "description": "text-title"
         },
-        "100-75%": {
+        "100-75": {
           "value": "#000000bf",
           "type": "color",
           "parent": "primitive/Value",
