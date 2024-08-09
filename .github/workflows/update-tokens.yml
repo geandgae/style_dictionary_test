@@ -1,30 +1,20 @@
-# Name of the action visible in the action overview
 name: Transform tokens sent from Figma
 
-# This triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
 on:
   repository_dispatch:
-    # and the event_type property from the request body is 'update-tokens'
     types: [update-tokens]
 
-# The following defines the job that is run if the above is true
 jobs:
   build:
-    # The name for the entire job
     name: Transform Figma design tokens for specific platforms
-
-    # We run this on Ubuntu
     runs-on: ubuntu-latest
 
     steps:
-      # This lets us work in the actual repository 
       - uses: actions/checkout@v2
 
-      # If the folder named "tokens" does not exist, create it
       - name: Create "tokens" directory
         run: mkdir -p tokens
 
-      # This creates a JSON file from the stringified JSON from the request body
       - name: Create JSON from request body
         id: create-json
         uses: jsdaniell/create-json@1.1.2
@@ -33,45 +23,19 @@ jobs:
           json: ${{ github.event.client_payload.tokens }}
           dir: 'tokens'
 
-      # Initialize Node.js to run Style Dictionary to compile the tokens
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-
-      # Install dependencies
-      - name: Install Dependencies
-        run: npm install
-
-      # Build tokens using the transform script
-      - name: Build Tokens
-        run: npm run build-push
-
-      # Display Git Config for debugging purposes
-      - name: Display Git Config
-        run: git config --list
-
-      # Check Git Status for debugging purposes
-      - name: Check Git Status
-        run: git status
-
-      # Check Current Branch for debugging purposes
-      - name: Check Current Branch
-        run: git branch -a
-
-      # Add the file to the staging area
-      - name: Add File to Staging
-        run: git add tokens/design-tokens.json
-
-      # Commit Changes if there are any
-      - name: Commit Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Configure Git identity (이 부분이 필요합니다)
+      - name: Configure Git Identity
         run: |
-          git diff-index --quiet HEAD -- || git commit -m "${{ github.event.client_payload.commitMessage || 'Tokens updated' }}"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Push Changes to the PR Branch
-      - name: Push Changes
+      # Create Pull Request 
+      - name: Create PR 
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: ${{ github.event.client_payload.commitMessage || 'Tokens updated' }}
+          title: "Design tokens updated"
+          body: "Design tokens have been updated via Figma and need to be reviewed."
+          branch: "create-pull-request/patch"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: git push origin HEAD:create-pull-request/patch
