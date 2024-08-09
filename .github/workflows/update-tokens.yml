@@ -39,14 +39,26 @@ jobs:
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       # We now create a pull request 
       
-      - name: Display Git Config
-        run: git config --list
+      # - name: Display Git Config
+      #   run: git config --list
 
-      - name: Check Git Status
-        run: git status
+      # - name: Check Git Status
+      #   run: git status
 
-      - name: Check Current Branch
-        run: git branch -a
+      # - name: Check Current Branch
+      #   run: git branch -a
+
+      # Commit and Push Changes (if any)
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add tokens/design-tokens.json
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "${{ github.event.client_payload.commitMessage || 'Tokens updated' }}"
+            git push origin HEAD:create-pull-request/patch
 
       - name: Create PR 
         uses: peter-evans/create-pull-request@v3
