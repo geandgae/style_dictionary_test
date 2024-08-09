@@ -1,52 +1,63 @@
 # Name of the action visible in the action overview
-name: Transform tokens send from figma
-# this triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
+name: Transform tokens sent from Figma
+
+# This triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
 on:
   repository_dispatch:
     # and the event_type property from the request body is 'update-tokens'
     types: [update-tokens]
-# the following defines the jon that is run if the above is true
+
+# The following defines the job that is run if the above is true
 jobs:
   build:
-    # the name for the entire job
+    # The name for the entire job
     name: Transform Figma design tokens for specific platforms
-    # we run this on ubuntu, leave this alone, if you don't have a good reason to change it
+
+    # We run this on Ubuntu
     runs-on: ubuntu-latest
+
     steps:
-      # this lets us work in the actual repository 
-      - uses: actions/checkout@master
-      # if the folder named "tokens" does not exist, create it
-      - name: mkdir "tokens" directory
-        # change tokens here (and in line 32) if you want to use a differently named folder 
-        run: 'mkdir -p tokens'
-      # this creates a json file from the stringified json from the request body
-      - name: create json from request body
+      # This lets us work in the actual repository 
+      - uses: actions/checkout@v2
+
+      # If the folder named "tokens" does not exist, create it
+      - name: Create "tokens" directory
+        run: mkdir -p tokens
+
+      # This creates a JSON file from the stringified JSON from the request body
+      - name: Create JSON from request body
         id: create-json
         uses: jsdaniell/create-json@1.1.2
         with:
-          # it uses the figma filename that was send as then filename parameter
           name: ${{ github.event.client_payload.filename }}
-          # it uses the json string that was send as the tokens parameter
           json: ${{ github.event.client_payload.tokens }}
-          # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
           dir: 'tokens'
-      # we now initialize node to run amazon style dictionary to compile the tokens
+
+      # Initialize Node.js to run Style Dictionary to compile the tokens
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
-          # we use version 14.x of node
           node-version: 14.x
-      # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
-      # We now create a pull request 
-      
-      # - name: Display Git Config
-      #   run: git config --list
 
-      # - name: Check Git Status
-      #   run: git status
+      # Install dependencies
+      - name: Install Dependencies
+        run: npm install
 
-      # - name: Check Current Branch
-      #   run: git branch -a
+      # Build tokens using the transform script
+      - name: Build Tokens
+        run: npm run build-push
+
+      # Display Git Config for debugging purposes
+      - name: Display Git Config
+        run: git config --list
+
+      # Check Git Status for debugging purposes
+      - name: Check Git Status
+        run: git status
+
+      # Check Current Branch for debugging purposes
+      - name: Check Current Branch
+        run: git branch -a
 
       # Commit and Push Changes (if any)
       - name: Commit and Push Changes
@@ -59,14 +70,3 @@ jobs:
           else
             git commit -m "${{ github.event.client_payload.commitMessage || 'Tokens updated' }}"
             git push origin HEAD:create-pull-request/patch
-
-      - name: Create PR 
-        uses: peter-evans/create-pull-request@v3
-        with:
-          commit-message: ${{ github.event.client_payload.commitMessage || 'Tokens updated' }}
-          title: "Design tokens updated"
-          body: "Design tokens have been updated via Figma and need to be reviewed."
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # this parameter is optional and defaults to master but I am using main
-          BRANCH_NAME: 'main'
