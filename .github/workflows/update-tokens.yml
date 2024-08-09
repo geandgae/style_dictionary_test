@@ -38,6 +38,16 @@ jobs:
           node-version: 14.x
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       # We now create a pull request 
+      
+      - name: Display Git Config
+        run: git config --list
+
+      - name: Check Git Status
+        run: git status
+
+      - name: Check Current Branch
+        run: git branch -a
+
       - name: Create PR 
         uses: peter-evans/create-pull-request@v3
         with:
