@@ -63,13 +63,15 @@ jobs:
       - name: Add File to Staging
         run: git add tokens/design-tokens.json
 
-      # Commit Changes
+      # Commit Changes if there are any
       - name: Commit Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if git diff-index --quiet HEAD --; then
-            echo "No changes to commit"
-          else
-            git commit -m "${{ github.event.client_payload.commitMessage || 'Tokens updated' }}"
-            git push origin HEAD:create-pull-request/patch
+          git diff-index --quiet HEAD -- || git commit -m "${{ github.event.client_payload.commitMessage || 'Tokens updated' }}"
+
+      # Push Changes to the PR Branch
+      - name: Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git push origin HEAD:create-pull-request/patch
