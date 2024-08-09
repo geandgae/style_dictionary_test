@@ -59,12 +59,15 @@ jobs:
       - name: Check Current Branch
         run: git branch -a
 
-      # Commit and Push Changes (if any)
-      - name: Commit and Push Changes
+      # Add the file to the staging area
+      - name: Add File to Staging
+        run: git add tokens/design-tokens.json
+
+      # Commit Changes
+      - name: Commit Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add tokens/design-tokens.json
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
           else
