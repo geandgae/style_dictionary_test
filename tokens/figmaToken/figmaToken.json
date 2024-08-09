@@ -1174,7 +1174,7 @@
           "description": "active/selected"
         },
         "secondary-on": {
-          "value": "{Color.secondary.50}",
+          "value": "{Color.background.danger}",
           "type": "color",
           "parent": "semantic/Mode 1",
           "description": "active/selected"
