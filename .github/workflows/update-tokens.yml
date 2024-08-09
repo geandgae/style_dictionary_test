@@ -2,33 +2,25 @@ name: Update Tokens
 
 on:
   repository_dispatch:
-    types:
-      - update-tokens
+    types: [update-tokens]
 
 jobs:
-  update-tokens-job:
+  build:
     runs-on: ubuntu-latest
     steps:
-
-      - name: checkout repository
+      - name: Check out the repository
         uses: actions/checkout@v2
-
-      - name: Create/Update tokens file
-        run: echo "${{ github.event.client_payload.tokens }}" > tokens.json
       
-      - name: Create/Update tokens file
-        run: echo "${{ github.event.client_payload.filename }}"
-        
-      - name: test
-        run: echo "${{ github.repository }}"
+      - name: Install dependencies
+        run: npm install
 
-      - name: Commit and push changes
+      - name: Build Design Tokens
+        run: npm run build
+
+      - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Your commit message"
-          git push origin HEAD:main
-      
+          git commit -m "Update design tokens"
+          git push origin main
